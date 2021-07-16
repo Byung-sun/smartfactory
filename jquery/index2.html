@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+            $(function() {
+              $("ul.foo").click(function(){
+                  $('li', this).css('background-color', 'red');
+              })
+              });
+        </script>
+    </head>
+    <body>
+        <ul>
+            <li>
+                test
+            </li>
+        </ul>
+        <ul class="foo">
+            <li>
+                test2
+            </li>
+        </ul>
+    </body>
+</html>
